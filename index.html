@@ -16,8 +16,7 @@
 <script>
 'use strict';
 /* ============================================================
-   ION STORM  --  (C) 1983 KAIDEN AMUSEMENT CO.
-   A lost-cabinet style fixed shooter. 224x288 internal res.
+   ION STORM  --  (C) 1983 VIRALTO AMUSEMENTS
    ============================================================ */
 
 const W = 224, H = 288;
@@ -991,7 +990,7 @@ function drawTitle(){
   }
   drawTextC('1 COIN 1 PLAY', 170, C.C1);
   drawTextC('BONUS SHIP AT 20000 PTS', 186, C.SK);
-  drawTextC('© 1983 KAIDEN AMUSEMENT CO.', 226, C.M);
+  drawTextC('© 1983 VIRALTO AMUSEMENTS', 226, C.M);
   drawTextC('MADE IN JAPAN', 238, C.DG);
 }
 
@@ -1025,7 +1024,7 @@ function drawScores(){
     drawText(('' + e.s).padStart(6, ' '), 78, 92 + i * 14, col);
     drawText(e.n, 146, 92 + i * 14, col);
   }
-  drawTextC('© 1983 KAIDEN AMUSEMENT CO.', 226, C.M);
+  drawTextC('© 1983 VIRALTO AMUSEMENTS', 226, C.M);
 }
 
 function drawPlayfield(){
